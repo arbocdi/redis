@@ -1,7 +1,7 @@
 # REDIS
 * <b>Redis</b> is an in-memory key-value store that can be used as a database, cache, and message broker. 
 * <b>redis-cli</b> cmd-утилита для работы с redis (6379 порт по умолчанию).
-* Ключи и значения в редис это строки с любым набором символов.
+* Ключи и значения в редис это строки с любым набором символов (а точнее просто байты).
 * Общие команды:
 ```
 KEYS '*' #вывести все ключи по маске
